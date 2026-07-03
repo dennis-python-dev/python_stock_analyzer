@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 import yfinance as yf
 
-root = Path("/home/kingwiz1/myspace/safezone/stock_analyzer")
+root = Path("/stock_analyzer")
 stock_file = root / "analysis.py"
 
 def get_stock_data(ticker):
